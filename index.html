@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superb Dog Grooming | Wheelers Hill, Melbourne</title>
+    <meta name="description" content="Professional, gentle, and friendly dog and cat grooming in Wheelers Hill, Melbourne. Book your appointment with Superb Dog Grooming today." />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                800: '#1B263B', // Deep Navy
+                900: '#0F172A',
+              },
+              mint: {
+                100: '#E0F2F1',
+                200: '#B2DFDB', // Soft Mint
+                500: '#4DB6AC',
+              },
+              peach: {
+                400: '#FFAB91',
+                500: '#FF8A65', // Warm Peach/Coral
+                600: '#FF7043',
+              },
+              cream: {
+                50: '#FFFCF5', // Warm off-white
+                100: '#FFF8E1',
+              }
+            },
+            fontFamily: {
+              heading: ['Fredoka', 'Baloo 2', 'Nunito', 'sans-serif'],
+              body: ['Inter', 'sans-serif'],
+            },
+            borderRadius: {
+              'xl': '1rem',
+              '2xl': '1.5rem',
+              '3xl': '2rem',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PetGroomingService",
+      "name": "Superb Dog Grooming",
+      "image": "https://picsum.photos/1200/630",
+      "telephone": "+61400000000",
+      "url": "https://superbgrooming.com.au",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Wheelers Hill",
+        "addressRegion": "VIC",
+        "addressCountry": "AU"
+      },
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/Superbdoggrooming/",
+        "https://www.instagram.com/superb.doggrooming/"
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-cream-50 text-slate-800 antialiased font-body">
+    <div id="root"></div>
+  </body>
+</html>
